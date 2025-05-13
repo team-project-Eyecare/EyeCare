@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #999;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    padding: 15px 20px;
+}
+
+.login {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    height: 300px;
+}
+
+.left-section {
+    flex: 1;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hospital-button {
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.right-section {
+    flex: 2;
+    background-color: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glasses-text {
+    font-size: 24px;
+    color: black;
+}
+
+.products {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.product-box {
+    text-align: center;
+}
+
+.product-img {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
