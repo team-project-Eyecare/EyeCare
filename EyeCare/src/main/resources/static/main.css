@@ -43,12 +43,21 @@
   }
   
   /* 기본 비율 */
-  .hospital-section {
-    flex: 1;
-  }
-  .glasses-section {
-    flex: 2;
-  }
+.hospital-section {
+  flex: 1;
+  background-image: url('https://source.unsplash.com/600x400/?hospital');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.glasses-section {
+  flex: 2;
+  background-image: url('https://source.unsplash.com/600x400/?glasses,optical');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
   
   /* hover 시 병원 영역 확대 */
   .hospital-section:hover {
