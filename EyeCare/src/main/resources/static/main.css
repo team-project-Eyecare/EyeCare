@@ -80,7 +80,7 @@
   .hospital-section button {
     z-index: 1;
     padding: 0.8rem 1.5rem;
-    background-color: #00bcd4;
+    background-color: #8bc34a;
     color: #000;
     border: none;
     border-radius: 6px;
@@ -89,7 +89,7 @@
     transition: background-color 0.3s ease;
   }
   .hospital-section button:hover {
-    background-color: #0097a7;
+    background-color: #689f38;
   }
   
   /* 상품 섹션 */
@@ -180,6 +180,7 @@
     text-align: center;
     margin-top: 1.5rem;
   }
+
   #more-button {
     padding: 0.8rem 1.5rem;
     background-color: #00bcd4;
