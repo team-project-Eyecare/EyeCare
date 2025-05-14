@@ -24,8 +24,39 @@
     color: #00bcd4;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
   }
-  
-  /* 메인 병원/안경 섹션 */
+
+.logo-link {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logo-link:hover {
+  color: #4dd0e1;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.header-btn {
+  padding: 0.5rem 1rem;
+  background-color: #8bc34a;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header-btn:hover {
+  background-color: #8bc34a;
+}
+
+/* 메인 병원/안경 섹션 */
   .main-section {
     display: flex;
     flex-wrap: nowrap;
